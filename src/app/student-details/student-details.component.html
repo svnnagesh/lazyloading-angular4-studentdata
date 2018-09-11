@@ -1,0 +1,28 @@
+<div class="container">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Mobile</th>
+                <th>DOB</th>
+                <th>Email</th>
+                <th>City</th>
+                <th>State</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{student.id}}</td>
+                <td>{{student.name}}</td>
+                <td>{{student.age}}</td>
+                <td>{{student.mobile}}</td>
+                <td>{{student.dob | date}}</td>
+                <td>{{student.email}}</td>
+                <td>{{student.city}}</td>
+                <td>{{student.state}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
